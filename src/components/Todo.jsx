@@ -45,6 +45,7 @@ function Todo() {
         
           <>
     <div className='container-fluid w-50 rounded p-2 mt-2 shadow'>
+      <h5 className=' m-5'> To-Do-List</h5>
         <Row className="mt-5">
             <Col >
                 <FloatingLabel controlId="floatingTitle" label="Task">
@@ -56,7 +57,7 @@ function Todo() {
                 </FloatingLabel>
             </Col>
             <Col className='mt-5'>
-                <button className='btn btn-primary w-25 ' onClick={handleAddTask}>Add Task</button>
+                <button className='btn btn-primary w-50  ' onClick={handleAddTask}>Add Task</button>
             </Col>
 
 
